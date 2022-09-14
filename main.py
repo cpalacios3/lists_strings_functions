@@ -156,9 +156,15 @@ print(multiDimen[0][0])
 
 # In[ ]:
 
-
-
-
+avengers = ["hawkeye", "hulk", "iron man", "black panther", "captAmer"]
+guardiansOfGalaxy = ["drax", "rocket raccoon", "groot", "starlord", "gamora"]
+marvelList = avengers + guardiansOfGalaxy
+print(marvelList)
+marvelList.append("thor")
+marvelList.append("spider man")
+print(marvelList)
+print(marvelList[])
+print(marvelList[5])
 
 # #Tuples
 
