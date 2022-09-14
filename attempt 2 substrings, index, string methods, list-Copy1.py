@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# cristians code
 # # Objectives Week 4
 # 
 # 1. Understand lists in python programming, 
