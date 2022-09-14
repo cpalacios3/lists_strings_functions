@@ -82,8 +82,8 @@ grapes = 50
 mangos = 5
 #list
 groceries = [apples, oranges, grapes, mangos]
-#print(groceries)
-#print(groceries[-1])
+print(groceries)
+print(groceries[-1])
 
 
 # In[1]:
@@ -98,12 +98,23 @@ friends = []
 # In[2]:
 
 
-#birthday_guests = ["femi", "will", "luis"]
-#Christmas_guests =["hou", "jessie","Tom"]
+birthday_guests = ["femi", "will", "luis"]
+Christmas_guests =["hou", "jessie","Tom"]
 
 #joins my list 
 #concatenation
+newList = birthday_guests + Christmas_guests
+print(newList)
 #remove
+newList.remove("Tom")
+print(newList)
+newList.append("rebecca")
+newList.append("jose")
+newList.append("james")
+print(newList)
+print(newList[4])
+newList.sort()
+print(newList)
 # birthday_guests[0] ="charlie"
 
 
